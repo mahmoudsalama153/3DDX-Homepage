@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="3DDX — digital dentistry solutions, technology and clinical support.">
+  <title>3DDX | Digital dentistry, made human</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { cyan: { 50: '#eefaff', 100: '#ddf3fe', 500: '#00a1d5', 700: '#08779b', 950: '#032b3c' }, orange: '#ff6b18', peach: '#fff3ee' },
+          fontFamily: { sans: ['Inter', 'Arial', 'sans-serif'] }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body class="bg-white text-cyan-950 antialiased">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="header-utility">
+      <div class="header-socials" aria-label="Social networks">
+        <a href="#" aria-label="LinkedIn"><img src="assets/icons/header-02.svg" alt="" width="30" height="30"></a><a href="#" aria-label="X"><img src="assets/icons/header-04.svg" alt="" width="30" height="30"></a><a href="#" aria-label="YouTube"><img src="assets/icons/header-06.svg" alt="" width="30" height="30"></a><a href="#" aria-label="Instagram"><img src="assets/icons/header-16.svg" alt="" width="30" height="30"></a>
+      </div>
+      <div class="header-contacts">
+        <a href="#"><span aria-hidden="true">▣</span> Remote access</a>
+        <a href="#"><span aria-hidden="true">⌘</span> Join fine-tune</a>
+        <a href="mailto:info@3ddx.com">info@3ddx.com</a>
+        <a href="tel:+16178205279">617-820-5279</a>
+      </div>
+    </div>
+    <div class="header-main">
+      <a class="brand" href="#hero" aria-label="3D Diagnostix home"><img src="assets/icons/3ddx-logo.svg" width="215" height="49" alt="3D Diagnostix"></a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#what-we-do">Solutions</a><a href="#about">Company</a><a href="#resources">Learning Center</a><a href="#technology">Business to Business</a><a href="#footer">Contact Us</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-indicator" type="button" aria-label="Decorative light mode indicator">☼</button>
+        <a class="pill pill-cyan" href="#">My account</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
+      </div>
+    </div>
+    <nav id="mobile-menu" class="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#what-we-do">Solutions</a><a href="#about">Company</a><a href="#resources">Learning Center</a><a href="#technology">Business to Business</a><a href="#footer">Contact Us</a><a href="#">My account</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/images/hero-dentist.png" aria-hidden="true" tabindex="-1">
+        <source src="assets/video/3DDX%20website%20header%202026.mp4" type="video/mp4">
+      </video>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="page-shell hero-content">
+        <div class="hero-copy" data-fade-up>
+          <h1 id="hero-title">Revolutionising digital<br>dentistry since 2005</h1>
+          <p>What started as a CBCT 3D conversion solution company at the beginning of 2005 has evolved into a full digital dental partner, adapting to all available resources offered throughout the years.</p>
+          <div class="hero-actions"><a class="pill pill-orange" href="#what-we-do">See how it works</a><a class="pill pill-ghost" href="#about">Meet 3DDX</a></div>
+        </div>
+        <div class="hero-footer" data-fade-up data-fade-delay="200">
+          <p>Our main focus is providing superior clinical outcomes via state of the art technology.</p>
+          <a class="explore-link" href="#about">Explore the journey <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="overlay-stage overlay-stage-about">
+      <section id="about" class="section-panel about-section" aria-labelledby="about-title">
+        <div class="page-shell about-grid">
+          <div class="about-copy" data-fade-up>
+            <h2 id="about-title" data-scroll-heading>About 3DDX</h2>
+            <p>3DDX has been a market leader in digital dentistry and restorative solutions. Our in-house teams of dentists, prosthodontists, and technicians have been committed to high-quality, customer-focused support, helping dental professionals worldwide achieve efficiency, accuracy, and better patient outcomes.</p>
+            <div class="stats" aria-label="3DDX achievements" data-fade-stagger>
+              <div class="stat"><strong><span data-count-up="20">20</span>+</strong><span>Years in digital dentistry</span></div>
+              <div class="stat"><strong><span data-count-up="500">500</span>k+</strong><span>Services fulfilled</span></div>
+            </div>
+            <p>We always strive to innovate and adapt to advanced technologies in order to provide our clients with the most accurate and reliable digital dental solutions.</p>
+            <a class="pill pill-cyan" href="#technology">More about us</a>
+          </div>
+          <div class="about-collage" aria-label="Dental professionals and quality" data-fade-up="scale" data-fade-delay="150">
+            <div class="collage-brand"><img src="assets/icons/about-01.svg" width="147" height="33" alt="3D Diagnostix.com"></div>
+            <img class="collage-model" src="assets/images/dental-model-care.png" width="375" height="233" alt="Dental professional demonstrating a dental model">
+            <img class="collage-patient" src="assets/images/patient-dental-exam.png" width="670" height="1024" alt="Patient receiving a dental examination" loading="lazy">
+            <div class="collage-seal"><img src="assets/images/quality-seal.png" width="400" height="400" alt="Best quality guaranteed seal" loading="lazy"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="what-we-do" class="horizontal-story" data-horizontal-story aria-labelledby="solutions-title">
+      <div class="horizontal-sticky">
+        <div class="page-shell solutions-heading" data-fade-up>
+          <div><p class="eyebrow">What we do</p><h2 id="solutions-title" data-scroll-heading>One workflow. Many<br>ways forward.</h2></div>
+          <p>From a single restoration to a full-arch case, select the support your practice needs without losing the continuity of the case.</p>
+        </div>
+        <div class="solution-viewport">
+          <div class="solution-track" data-horizontal-track tabindex="0" aria-label="3DDX solutions" data-fade-stagger data-stagger-step="150">
+            <article class="solution-card blue"><span>01 / 06</span><img class="solution-product" src="assets/images/restorative-solutions.png" width="500" height="500" alt="Full arch restorative solution" loading="lazy"><h3>Restorative solutions</h3><p>From single-tooth crowns to full-arch photogrammetry implant restorations, built for clinical function and lasting aesthetics.</p><a class="solution-card-link" href="#">Explore Restorations <img src="assets/icons/workflow-02.svg" alt="" width="8" height="8"></a></article>
+            <article class="solution-card orange"><span>02 / 06</span><img class="solution-product" src="assets/images/magnetix-guide.png" width="4032" height="3024" alt="MagnetiX surgical guide" loading="lazy"><h3>MagnetiX™</h3><p>Stackable guides and restorations designed to streamline complex cases into a clear surgical workflow.</p><a class="solution-card-link" href="#">Explore MagnetiX <img src="assets/icons/workflow-02.svg" alt="" width="8" height="8"></a></article>
+            <article class="solution-card blue"><span>03 / 06</span><img class="solution-product" src="assets/images/digital-design.png" width="1617" height="1437" alt="Digital full arch dental design" loading="lazy"><h3>Digital design</h3><p>Clinician-led planning and production-ready design files with expert review at every stage.</p><a class="solution-card-link" href="#">Explore Digital Design <img src="assets/icons/workflow-02.svg" alt="" width="8" height="8"></a></article>
+            <article class="solution-card orange"><span>04 / 06</span><img class="solution-product" src="assets/images/3ddx-ai.png" width="291" height="222" alt="3DDX AI dental planning model" loading="lazy"><h3>3DDX AI™</h3><p>Check case eligibility, review the plan and retain clinical control in an AI-powered planning workflow.</p><a class="solution-card-link" href="#">Explore 3DDX AI <img src="assets/icons/workflow-02.svg" alt="" width="8" height="8"></a></article>
+            <article class="solution-card blue"><span>05 / 06</span><img class="solution-product" src="assets/images/all-on-x-kit.png" width="313" height="202" alt="All-On-X surgical kit" loading="lazy"><h3>All-On-X Kit</h3><p>A versatile kit for precise implant data capture and restorative flexibility.</p><a class="solution-card-link" href="#">Explore All-On-X <img src="assets/icons/workflow-02.svg" alt="" width="8" height="8"></a></article>
+            <article class="solution-card orange aligner-card"><span>06 / 06</span><img class="solution-product" src="assets/images/ismile-aligner.png" width="1024" height="1768" alt="Clear dental aligner held in hand" loading="lazy"><h3>iSmile Aligners</h3><p>Clear aligners with expert planning, efficient clinical workflows and premium esthetics.</p><a class="solution-card-link" href="#">Explore iSmile <img src="assets/icons/workflow-02.svg" alt="" width="8" height="8"></a></article>
+            <a class="solution-card solution-cta" href="#technology"><span>Find your solution</span><b aria-hidden="true"><img src="assets/icons/workflow-06.svg" alt="" width="18" height="14"></b></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ways-to-work" class="ways-section" aria-labelledby="ways-title">
+      <div class="page-shell">
+        <div class="section-heading split-heading" data-fade-up>
+          <div>
+            <p class="eyebrow">Ways to work with us</p>
+            <h2 id="ways-title" data-scroll-heading>From patient records to a<br>result you can review</h2>
+          </div><p>The process keeps the clinician involved where it matters, with a clear delivery choice at the end.</p></div>
+        <ol class="steps" data-stagger-list data-fade-stagger>
+          <li><span>Step 01</span><h3>Submit records</h3><p>Submit patient records and create the order through the HIPAA-compliant 3DDX Connect portal.</p></li>
+          <li><span>Step 02</span><h3>Validate &amp; design</h3><p>Our team checks the records, then develops the design to your prescription and clinical requirements.</p></li>
+          <li><span>Step 03</span><h3>Review together</h3><p>Review the proposed design with an in-house doctor and request refinements before fabrication.</p></li>
+          <li><span>Step 04</span><h3>Choose delivery</h3><p>Take a production-ready digital design, or let 3DDX produce, quality-check and ship the appliance.</p></li>
+        </ol>
+        <div class="delivery-grid" data-fade-stagger>
+          <a href="#"><h3>Digital design</h3><p>Receive a production-ready STL file and manufacture through your preferred in-office workflow.</p><img src="assets/icons/workflow-07.svg" alt="" width="13" height="13"></a>
+          <a href="#"><h3>Complete production</h3><p>Let 3DDX manufacture, quality-check and deliver the finished appliance to your practice.</p><img src="assets/icons/workflow-07.svg" alt="" width="13" height="13"></a>
+        </div>
+        <a class="event-banner" href="#" aria-label="Health and Wellness Innovation Summit 2026 featuring Sarah Chen" data-fade-up><img src="assets/images/sarah-banner-orange.png" width="1286" height="205" alt="Health and Wellness Innovation Summit 2026, October 22–23, special guest speaker Sarah Chen" loading="lazy"></a>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-wrap" aria-labelledby="testimonials-title">
+      <div class="page-shell testimonial-panel">
+        <div class="testimonial-intro" data-fade-up><p class="eyebrow">Heard from clinicians</p><h2 id="testimonials-title" data-scroll-heading>Support that shows up when a case gets complex</h2><p>Because our main focus is your convenience and providing outstanding quality, with dedicated customer support agents and in-house doctors available from 8am to 8pm EST, this is what our clients have to say about us.</p></div>
+        <div class="carousel testimonial-carousel" data-carousel data-loop="true" aria-roledescription="carousel" aria-label="Clinician testimonials" data-fade-up data-fade-delay="150">
+          <div class="carousel-toolbar"><img class="quote-mark" src="assets/icons/testimonials-01.svg" width="68" height="49" alt=""><div><button type="button" data-carousel-prev aria-label="Previous testimonial"><img src="assets/icons/testimonials-02.svg" width="63" height="49" alt=""></button><button type="button" data-carousel-next aria-label="Next testimonial"><img src="assets/icons/testimonials-03.svg" width="63" height="49" alt=""></button></div></div>
+          <div class="carousel-window"><div class="carousel-track" data-carousel-track>
+            <article class="testimonial-slide" data-carousel-slide><blockquote>3D Diagnostix provides high quality service and manages to do it with an excellent turn around time. They are extremely responsive, generous and knowledgeable. They truly treat their customer right and do everything they can to help you grow and be successful.</blockquote><div class="clinician"><img src="assets/images/paresh-patel.png" width="250" height="250" alt="Paresh Patel, DDS" loading="lazy"><p><strong>Paresh Patel, DDS</strong><span>Lenoir, North Carolina</span></p></div></article>
+            <!-- Demo duplicate: replace with a real WordPress testimonial record. -->
+            <article class="testimonial-slide" data-carousel-slide data-demo-content="true"><blockquote>3D Diagnostix provides high quality service and manages to do it with an excellent turn around time. They are extremely responsive, generous and knowledgeable. They truly treat their customer right and do everything they can to help you grow and be successful.</blockquote><div class="clinician"><img src="assets/images/paresh-patel.png" width="250" height="250" alt="Paresh Patel, DDS" loading="lazy"><p><strong>Paresh Patel, DDS</strong><span>Lenoir, North Carolina</span></p></div></article>
+            <article class="testimonial-slide" data-carousel-slide data-demo-content="true"><blockquote>3D Diagnostix provides high quality service and manages to do it with an excellent turn around time. They are extremely responsive, generous and knowledgeable. They truly treat their customer right and do everything they can to help you grow and be successful.</blockquote><div class="clinician"><img src="assets/images/paresh-patel.png" width="250" height="250" alt="Paresh Patel, DDS" loading="lazy"><p><strong>Paresh Patel, DDS</strong><span>Lenoir, North Carolina</span></p></div></article>
+          </div></div>
+          <a class="text-link" href="#">Read clinician testimonials <img src="assets/icons/testimonials-04.svg" alt="" width="15" height="15"></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="resources" class="resources-section" aria-labelledby="resources-title" data-tabs>
+      <div class="page-shell">
+        <div class="section-heading split-heading" data-fade-up><div><p class="eyebrow">3DDX Resources</p><h2 id="resources-title" data-scroll-heading>Keep the conversation<br>moving</h2></div><p>Read clinical articles, revisit webinars, watch workflow guidance and study the stages of successful surgery.</p></div>
+        <div class="carousel resource-carousel" data-carousel aria-roledescription="carousel" aria-label="3DDX resources">
+          <div class="resource-filter-row" data-fade-up>
+            <div class="resource-controls" role="tablist" aria-label="Filter resources">
+              <button role="tab" aria-selected="true" data-tab="all">All resources</button><button role="tab" aria-selected="false" data-tab="articles">Articles</button><button role="tab" aria-selected="false" data-tab="webinars">Webinars</button><button role="tab" aria-selected="false" data-tab="videos">Videos</button><button role="tab" aria-selected="false" data-tab="case-studies">Case studies</button>
+            </div>
+            <div class="carousel-dots" data-carousel-dots aria-label="Choose resource"></div>
+          </div>
+          <div class="carousel-window"><div class="carousel-track resource-track" data-carousel-track data-fade-stagger>
+            <article class="resource-card" data-carousel-slide data-category="articles"><div class="resource-image"><img src="assets/images/resource-clinicians.jpg" width="890" height="660" alt="Clinicians walking in a hospital" loading="lazy"><span>Articles</span></div><div class="resource-meta">August 29, 2023 · Admin</div><h3>What’s the reason so many older adults aren’t active?</h3><a href="#">Read More</a></article>
+            <article class="resource-card" data-carousel-slide data-category="articles"><div class="resource-image"><img src="assets/images/resource-robotics.jpg" width="890" height="660" alt="Patient discussing care with a medical robot" loading="lazy"><span>Articles</span></div><div class="resource-meta">August 29, 2023 · Admin</div><h3>From CBCT clarity to full-arch restoration perspectives</h3><a href="#">Read More</a></article>
+            <article class="resource-card" data-carousel-slide data-category="videos"><div class="resource-image"><img src="assets/images/resource-education.jpg" width="890" height="660" alt="Medical educators reviewing a case" loading="lazy"><span>Videos</span></div><div class="resource-meta">August 29, 2023 · Admin</div><h3>Principles and live cases from educational partners and in-house dentists</h3><a href="#">Read More</a></article>
+            <article class="resource-card" data-carousel-slide data-category="webinars"><div class="resource-image"><img src="assets/images/resource-aligners.jpg" width="892" height="595" alt="Clear aligner being fitted to a dental model" loading="lazy"><span>Webinars</span></div><div class="resource-meta">February 13, 2025 · Doctor</div><h3>Workflow guidance and product specifications</h3><a href="#">Read More</a></article>
+            <article class="resource-card" data-carousel-slide data-category="case-studies"><div class="resource-image"><img src="assets/images/resource-surgery.jpg" width="893" height="595" alt="Dental illustration of a healthy tooth" loading="lazy"><span>Case studies</span></div><div class="resource-meta">August 29, 2023 · Admin</div><h3>Step by step: what makes a surgery successful</h3><a href="#">Read More</a></article>
+          </div></div>
+        </div>
+        <a class="event-banner resource-event" href="#" aria-label="Health and Wellness Innovation Summit 2026 featuring Sarah Chen" data-fade-up><img src="assets/images/sarah-banner-blue.png" width="1285" height="197" alt="Health and Wellness Innovation Summit 2026, October 22–23, special guest speaker Sarah Chen" loading="lazy"></a>
+      </div>
+    </section>
+
+    <div class="overlay-stage overlay-stage-technology">
+      <section id="technology" class="section-panel technology-section" aria-labelledby="technology-title">
+        <div class="page-shell">
+          <div class="section-heading split-heading" data-fade-up><div><p class="eyebrow orange-text">The human element</p><h2 id="technology-title" data-scroll-heading>Technology moves<br>the case. People make<br>it work.</h2></div><p>Because we understand even though technology can make our practices easier, the human element is irreplaceable. That’s why every step in our workflow includes a dedicated in-house expert, whether it is one of your account managers or our in-house specialised dental experts.</p></div>
+          <div class="technology-grid" data-fade-stagger>
+            <article><div class="technology-image"><img src="assets/images/onboarding-scanner.png" width="326" height="401" alt="Intraoral scanning equipment" loading="lazy"></div><h3>Onboarding &amp; setup</h3><p>For a seamless integration and adoption into our ecosystem, our dedicated teams are always available.</p><a href="#">Start now <img src="assets/icons/technology-01.svg" alt="" width="11" height="11"></a></article>
+            <article class="peach"><div class="technology-image"><img src="assets/images/induction-handpiece.png" width="446" height="396" alt="Dental handpiece held by a clinician" loading="lazy"></div><h3>Induction</h3><p>Leverage the 3DDX expertise to adopt new restorative solutions into your practice.</p><a href="#">Start now <img src="assets/icons/technology-01.svg" alt="" width="11" height="11"></a></article>
+            <article class="photo-card"><div class="technology-image"><img src="assets/images/design-review.png" width="901" height="1060" alt="Clinician explaining an implant design" loading="lazy"></div><h3>Design review</h3><p>Seize the full capability of our in-house dentists to ensure the best prognosis for your cases.</p><a href="#">Start now <img src="assets/icons/technology-02.svg" alt="" width="11" height="11"></a></article>
+            <article><div class="technology-image"><img src="assets/images/chairside-assistance.png" width="800" height="800" alt="Full arch dental implant restoration" loading="lazy"></div><h3>Chairside assistance</h3><p>Use the technology without the capital investment, from immediate pickup denture conversions.</p><a href="#">Start now <img src="assets/icons/technology-03.svg" alt="" width="11" height="11"></a></article>
+          </div>
+          <aside class="partner-card" data-fade-up><div><h3>Business Partner for all-round dental technology</h3><p>Ready to take your practice to the next level? Use 3DDX as your one-round partner for digital dental technology adoption, training, and support. 3DDX’s digital capital equipment portfolio includes intra-oral and face scanners, 3D-printing solutions, photogrammetry scanners, grammetry kits and more.</p><p>We don’t just provide the technology, we help you make it a part of your daily workflow with ease and efficiency.</p></div><a class="pill pill-orange" href="#footer">Connect with sales</a></aside>
+        </div>
+      </section>
+    </div>
+
+    <section id="faq" class="faq-section" aria-labelledby="faq-title">
+      <div class="page-shell faq-grid">
+        <div class="faq-intro" data-fade-up><p class="eyebrow">Frequently asked</p><h2 id="faq-title" data-scroll-heading>Good questions<br>deserve clear<br>answers</h2><p>A few practical details before your next case. Our team can help with anything more specific.</p><a class="pill pill-cyan" href="#">View all FAQs</a></div>
+        <div class="accordions" data-accordion data-fade-stagger>
+          <article class="accordion-item is-open"><h3><button type="button" aria-expanded="true" aria-controls="faq-answer-1">How do I print a shipping label?<span aria-hidden="true"></span></button></h3><div id="faq-answer-1" class="accordion-answer"><p>You may print a shipping label by logging into your account on our website and choosing “shipping label” from the menu on the left. Then select your preferred shipping method (overnight or standard shipping) and your state. Click “Print shipping label” to generate a printable PDF version.</p></div></article>
+          <article class="accordion-item"><h3><button type="button" aria-expanded="false" aria-controls="faq-answer-2">What type of radiograph is acceptable?<span aria-hidden="true"></span></button></h3><div id="faq-answer-2" class="accordion-answer" hidden><p>We accept both digital scans (intraoral scans) and traditional stone model/PVS impressions, which will be poured into study models. We recommend capturing all tissue anatomy in edentulous spaces. Impressions or scans should record the entire arch of interest, plus a bite registration and the opposing arch.</p></div></article>
+          <article class="accordion-item"><h3><button type="button" aria-expanded="false" aria-controls="faq-answer-3">Is it possible to get my case sooner than the normal turnaround time?<span aria-hidden="true"></span></button></h3><div id="faq-answer-3" class="accordion-answer" hidden><p>Yes, you can rush your cases. Simply check “Yes” next to the “Rush if possible” option when placing your order. An additional fee will apply.</p></div></article>
+          <article class="accordion-item"><h3><button type="button" aria-expanded="false" aria-controls="faq-answer-4">What kind of impressions are acceptable to send?<span aria-hidden="true"></span></button></h3><div id="faq-answer-4" class="accordion-answer" hidden><p>We accept both digital scans (intraoral scans) and traditional stone model/PVS impressions, which will be poured into study models. Capture all tissue anatomy in edentulous spaces and the entire arch of interest. We prefer both a bite registration and an impression or scan of the opposing arch.</p></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="site-footer">
+    <div class="page-shell footer-grid">
+      <div class="footer-primary" data-fade-up><h2><span>Your Smile Matters</span><br>Connect With Us Today</h2><div class="footer-links"><div><h3>Company</h3><a href="#">Home</a><a href="#">Services</a><a href="#">About Us</a></div><div><h3>Resources</h3><a href="#">Contact Us</a><a href="#">Blog</a><a href="#">FAQ</a></div><div><h3>Legal</h3><a href="#">Privacy Policy</a><a href="#">Terms and Conditions</a><a href="#">License</a></div></div></div>
+      <div class="footer-contact" data-fade-up data-fade-delay="150"><p>Join hundreds of patients achieving healthier, brighter care and expert dental care.</p><form class="newsletter" data-newsletter novalidate><label class="sr-only" for="newsletter-email">Your email address</label><input id="newsletter-email" type="email" placeholder="Your Email Address" required><button type="submit">Subscribe</button><span class="form-status" role="status"></span></form><p>We’d love to help you with ease</p><a class="footer-email" href="#">info@3ddx.com</a><p class="follow-label">Follow us:</p><div class="footer-socials"><a href="#" aria-label="LinkedIn"><img src="assets/icons/footer-02.svg" alt="" width="30" height="30"></a><a href="#" aria-label="Facebook"><img src="assets/icons/footer-03.svg" alt="" width="30" height="30"></a><a href="#" aria-label="X"><img src="assets/icons/footer-04.svg" alt="" width="30" height="30"></a><a href="#" aria-label="YouTube"><img src="assets/icons/footer-05.svg" alt="" width="30" height="30"></a><a href="#" aria-label="Instagram"><img src="assets/icons/footer-06.svg" alt="" width="30" height="30"></a><a href="#" aria-label="TikTok"><img src="assets/icons/footer-07.svg" alt="" width="30" height="30"></a></div></div>
+    </div>
+  </footer>
+
+
+  <div class="contact-menu" data-contact-menu hidden>
+    <div class="contact-options" aria-label="Contact options">
+      <a href="tel:+16178205279" aria-label="Call 3DDX"><img src="assets/icons/phone.svg" alt="" width="22" height="22"></a>
+      <a href="https://wa.me/16178205279" aria-label="Message 3DDX on WhatsApp"><img src="assets/icons/whatsapp.svg" alt="" width="32" height="32"></a>
+      <a href="mailto:info@3ddx.com" aria-label="Email 3DDX"><img src="assets/icons/email.svg" alt="" width="29" height="24"></a>
+      <a href="#footer" aria-label="Open contact area"><img src="assets/icons/message.svg" alt="" width="26" height="26"></a>
+    </div>
+    <button class="contact-toggle" type="button" aria-expanded="false" aria-label="Open contact menu"><img src="assets/icons/plus.svg" alt="" width="21" height="21"></button>
+  </div>
+</body>
+</html>
