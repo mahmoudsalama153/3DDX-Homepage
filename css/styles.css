@@ -1995,7 +1995,6 @@ a.solution-card.solution-cta span {
   .about-grid,
   .solutions-heading,
   .split-heading,
-  .testimonial-panel,
   .faq-grid,
   .footer-grid {
     grid-template-columns: 1fr;
@@ -2048,8 +2047,15 @@ a.solution-card.solution-cta span {
   }
 
   .testimonial-panel {
+    flex-direction: column;
     gap: 55px;
     padding: 58px 28px;
+  }
+
+  .testimonial-intro,
+  .testimonial-carousel {
+    width: 100%;
+    max-width: none;
   }
 
   .testimonial-intro>p:last-child {
